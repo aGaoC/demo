@@ -24,7 +24,6 @@ function copyFun(a) {
     // let c = {}
     for (const key in a) {
       if (Object.hasOwnProperty.call(a, key)) {
-        // const element = object[key];
         c[key] = a[key]
       }
     }
